@@ -1,0 +1,9 @@
+div.form-row {
+	clear: both;
+	width: 100%;
+}
+
+div.form-label {
+	float: left;
+	width: 50%;
+}

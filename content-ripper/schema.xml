@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="content-ripper" defaultIdMethod="native">
+	<table name="user" phpName="User">
+		<column name="id"       type="integer"            required="true" primaryKey="true" autoIncrement="true"/>
+		<column name="login"    type="varchar" size="128" required="true"/>
+		<column name="password" type="varchar" size="32"  required="true"/>
+	</table>
+</database>
